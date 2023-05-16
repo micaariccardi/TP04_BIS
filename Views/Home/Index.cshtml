@@ -3,11 +3,11 @@
 }
 <link rel="stylesheet" href="/css/estilo.css">
 
-<h1>TITULO</h1>
-
+<h1>Información sobre algunos paises :D</h1>
+<h2>Clickea para saber más</h2>
+<div class = bandera>
 @foreach (Pais pais in ViewBag.listaPaises)
 {
-    <div class = bandera>
-        <img src="/imagenes/@pais.imgBandera" >
-    </div>
+    <a href='@Url.Action("DetallePais", new {nombrePais=pais.nombre})'> <img src="/imagenes/@pais.imgBandera"> </a>
 }
+</div>

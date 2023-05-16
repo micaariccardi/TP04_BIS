@@ -18645,6 +18645,11 @@
   "RootNamespace": "TP04_BIS",
   "Documents": [
     {
+      "FilePath": "z:\\2023\\Programación\\TP04_BIS\\Views\\Home\\DetallePais.cshtml",
+      "TargetPath": "Views\\Home\\DetallePais.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "z:\\2023\\Programación\\TP04_BIS\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

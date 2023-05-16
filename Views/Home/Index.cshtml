@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+<link rel="stylesheet" href="/css/estilo.css">
+
+<h1>TITULO</h1>
+
+@foreach (Pais pais in ViewBag.listaPaises)
+{
+    <div class = bandera>
+        <img src="/imagenes/@pais.imgBandera" >
+    </div>
+}
